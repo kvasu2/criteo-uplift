@@ -34,9 +34,13 @@ In this dataset, `treatment` represents randomized assignment to the group eligi
 
 The observed treatment-control lift is an estimate of the causal effect, not proof that the entire observed difference was caused by treatment. Even under random assignment, one realized experiment contains random variation:
 
-\[
-\text{observed lift}=\text{true treatment effect}+\text{randomization error}.
-\]
+$$
+\text{observed lift}
+=
+\text{true treatment effect}
++
+\text{randomization error}.
+$$
 
 Confidence intervals and hypothesis tests help determine how much of the observed lift could plausibly be due to random variation. Absolute and relative lift must also be distinguished:
 
